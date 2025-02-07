@@ -1,0 +1,84 @@
+.logo_navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid brown;
+    flex-direction: row;
+
+    background-color: blue;
+
+    height: 80px;
+}
+
+
+#featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid brown;
+    flex-direction: row;
+    
+    background-color: green;
+
+    height: 400px;
+
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid brown;
+    flex-direction: row;
+    
+    background-color: red;
+
+    height: 200px;
+}
+
+
+.skills_autobiography {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid brown;
+    flex-direction: row;
+    
+    background-color: yellow;
+
+    height: 200px;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid brown;
+    flex-direction: row;
+    
+    background-color: orangered;
+
+    height: 100px;
+}
+
+
+
+.proj {
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+}
+
+.skillandauto {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+}
+
+.logoandinfo {
+    background-color: pink;
+    height: 80px;
+    width: 150px;
+}
