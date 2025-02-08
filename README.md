@@ -3,6 +3,10 @@
 
 Full Name: Aldrich Nathaniel L. Devilles
 Degree Program: BS Computer Science
-Live Website Link:
+
+Live Website Link: https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-aldrichDevilles/#skills
+
 Steps on how to create GitHubPage:
+Youtube Reference: https://youtu.be/OltY8JIaP-4
 What are your key takeaways from this exercise: 
+    - I learned how to style a website using flexbox and it was a fun experience to host a website using github. I feel like a real Computer Science student now.
