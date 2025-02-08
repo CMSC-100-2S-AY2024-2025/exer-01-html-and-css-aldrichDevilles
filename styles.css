@@ -1,64 +1,111 @@
 .logo_navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    border: 1px solid brown;
     flex-direction: row;
 
-    background-color: blue;
-
+    background-image: url(./images/header_background.png);
+    background-size:cover;
     height: 80px;
 }
 
+#logo {
+    margin: 50px;
+}
+
+
+.links {
+    font-family: Helvetica;
+    padding: 30px;
+    text-decoration: none;
+    text-shadow: #EFDECD;
+    color:cornflowerblue;
+    font-size: larger;
+}
+
+/* #jumps {
+
+} */
+
+#eskinita_fighters {
+    position: absolute;
+    z-index: 10;
+}
+
+#sky_overlay {
+    position: absolute;
+    z-index: 5;
+    height: 500px;
+    width: 1245px;
+    opacity: .3;
+    object-fit:cover;
+    mix-blend-mode:overlay;
+}
 
 #featured {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid brown;
     flex-direction: row;
-    
-    background-color: green;
+    height: 500px;
 
-    height: 400px;
+    background-image: url(./images/latest_proj_background.jpg);
+    background-color: #9bddff;
+    background-blend-mode:soft-light;
 
 }
+
 
 .projects {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid brown;
     flex-direction: row;
     
-    background-color: red;
+    background-image: url(./images/proj_background.jpg);
+    background-size:contain;
+    background-blend-mode:overlay;
+    background-color: #EFDECD;
+    height: 300px;
+}
 
-    height: 200px;
+.proj {
+    width: 50px;
+    height: 50px;
 }
 
 
 .skills_autobiography {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    border: 1px solid brown;
     flex-direction: row;
     
-    background-color: yellow;
+    background-image: url(./images/latest_proj_background.jpg);
+    background-color: #9bddff;
+    background-blend-mode:soft-light;
 
-    height: 200px;
+    height: 400px;
 }
 
+#skills {
+    width: 300px;
+    padding: 25px;
+}
+
+#autobiography {
+    width: 600px;
+    padding: 25px;
+}
 
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
-    border: 1px solid brown;
     flex-direction: row;
-    
-    background-color: orangered;
+    background-image: url(./images/header_background.png);
+    background-size:cover;
 
     height: 100px;
 }
@@ -67,18 +114,28 @@
 
 .proj {
     background-color: yellow;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
 }
 
-.skillandauto {
-    background-color: red;
-    height: 150px;
-    width: 150px;
+
+.info {
+    height: 100px;
+    width: 300px;
+
 }
 
-.logoandinfo {
-    background-color: pink;
-    height: 80px;
-    width: 150px;
+#credentials {
+    font-size: small;
+    font-family:Helvetica;
+}
+
+#contact {
+    font-size: small;
+    font-family:Helvetica;
+    text-align: left;
+}
+
+#uplb_logo, #ics_logo {
+    max-width: 80px;
 }
